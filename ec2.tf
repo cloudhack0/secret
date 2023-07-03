@@ -1,9 +1,9 @@
-resource "azurerm_resource_group" "negative1" {
+resource "azurerm_resource_group" "negative" {
   name     = "acceptanceTestResourceGroup1"
   location = "West US"
 }
 
-resource "azurerm_sql_server" "negative2" {
+resource "azurerm_sql_server" "negative3" {
   name                         = "mysqlserver"
   resource_group_name          = "acceptanceTestResourceGroup1"
   location                     = "West US"
